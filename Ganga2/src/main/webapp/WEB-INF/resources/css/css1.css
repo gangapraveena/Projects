@@ -1,0 +1,56 @@
+@CHARSET "ISO-8859-1";
+
+#background {
+	width: 100%;
+	height: 100%;
+}
+
+#bg-img {
+	width: 100%;
+	min-height: 700px;
+	position: absolute;
+	filter: blur(5px);
+}
+
+#content {
+	width: 100%;
+}
+
+.container {
+	height: 600px;
+	text-align: center;
+	position: relative;
+}
+
+.vertical-align {
+	position: relative;
+	top: 50%;
+}
+
+@media only screen and (min-width:40cm) {
+	.container {
+		height: 500px;
+	}
+}
+
+.btn {
+	font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+	border: none;
+	font-weight: 700;
+	text-transform: uppercase;
+	border-radius: 300px;
+}
+
+.btn-xl {
+	padding: 15px 30px;
+}
+
+h1 {
+	color: #FFFFFF;
+	font-family: "fantasy";
+	font-size: 200px;
+}
+
+u {
+	text-decoration: underline;
+}

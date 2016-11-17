@@ -1,0 +1,195 @@
+/*!
+ * Start Bootstrap - Business Casual (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+body {
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background: url("../img/v.jpg")
+		no-repeat center center fixed;
+	background-size: 65%;
+	width: 100%;
+	height: 500px;
+	display: block;
+	padding: 0 !important;
+	margin: 0;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-color: #f4511e;
+	color: #fff;
+	padding: 100px 25px;
+	font-family: Montserrat, sans-serif;
+}
+
+.jumbotron {
+	background:
+		url('C:\\Users\\goutham1\\workspace\\Ganga\\resources\\img\\bg7.jpg')
+		no-repeat center center fixed;
+	background-size: 75%;
+	width: 100%;
+	height: 500px;
+	display: block;
+	padding: 0 !important;
+	margin: 0;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-color: #f4511e;
+	color: #fff;
+	padding: 100px 25px;
+	font-family: Montserrat, sans-serif;
+	background-color: #242424;
+	color: #F1F1F1;
+	font-size: 43px;
+	padding: 15px 0 6px;
+	text-shadow: 0 0 2px #FFFFFF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-transform: uppercase;
+	font-family: "Josefin Slab", "Helvetica Neue", Helvetica, Arial,
+		sans-serif;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+
+.carousel-caption p {
+	
+	line-height: 2.6;
+	color:#80ff80;
+	font-family:Britannic Bold;
+	font-size-adjust: 1.79;
+	
+}
+
+ h2.intro-text.text-center {
+	max-width: 400px;
+	border-color: #999999;
+	color:#00ffff;
+	align:center;
+}
+p{
+	color:#0000ff;
+}
+
+.brand, .address-bar {
+	display: none;
+	color:#00ffff;
+}
+
+.img-full {
+	min-width: 100%;
+}
+
+.brand-before, .brand-name {
+	text-transform: capitalize;
+	color: #00ffff;
+}
+
+.brand-before {
+	margin: 15px 0;
+}
+
+.brand-name {
+	margin: 0;
+	font-size: 4em;
+}
+
+
+h3.chiller{
+	font-family:Britannic Bold;
+	color:#006400;
+}
+.glyphicon.glyphicon-grain{
+	font-size: 20px;
+	font-size-adjust: 2.79;
+	Color: 	#006400;
+}
+
+.tagline-divider {
+	margin: 15px auto 3px;
+	max-width: 250px;
+	border-color: #999999;
+}
+
+.box {
+	margin-bottom: 20px;
+	padding: 30px 15px;
+	background: #fff;
+	background: rgba(255, 255, 255, 0.9);
+}
+
+.intro-text {
+	text-transform: uppercase;
+	font-size: 1.25em;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+
+.img-border {
+	float: none;
+	margin: 0 auto 0;
+	border: #999999 solid 1px;
+}
+
+.img-left {
+	float: none;
+	margin: 0 auto 0;
+}
+
+footer {
+	background: #fff;
+	background: rgba(255, 255, 255, 0.9);
+}
+
+footer p {
+	margin: 0;
+	padding: 50px 0;
+}
+
+@media screen and (min-width:768px) {
+	.brand {
+		display: inherit;
+		margin: 0;
+		padding: 30px 0 10px;
+		text-align: center;
+		text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+		font-family: "Josefin Slab", "Helvetica Neue", Helvetica, Arial,
+			sans-serif;
+		font-size: 5em;
+		font-weight: 700;
+		line-height: normal;
+		/*! color: #fff;*/
+		color: blue;
+	}
+	.top-divider {
+		margin-top: 0;
+	}
+	.img-left {
+		float: left;
+		margin-right: 25px;
+	}
+	.address-bar {
+		display: inherit;
+		margin: 0;
+		padding: 0 0 40px;
+		text-align: center;
+		text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+		text-transform: uppercase;
+		font-size: 1.25em;
+		font-weight: 400;
+		letter-spacing: 3px;
+		color: #fff;
+	}
+}
+
+@media screen and (min-width:1200px) {
+	.box:after {
+		content: '';
+		display: table;
+		clear: both;
+	}
+}
